@@ -1,0 +1,3 @@
+1. Enable support for GPUs in Docker (https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#configuring-docker)
+2. Download and extract Percy++ in the working directory and build the image (docker build -t ndss_ae .)
+3. Run the container in interactive mode and with GPU(s) (docker run -rm --gpus all -it ndss_ae)
